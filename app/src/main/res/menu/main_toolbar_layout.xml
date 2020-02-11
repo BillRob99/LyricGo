@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+            android:id="@+id/allSongs"
+            android:icon="@drawable/music"
+            app:showAsAction="ifRoom"
+            android:title="@string/songs_found">
+    </item>
+    <item
+            android:id="@+id/viewLyrics"
+            app:showAsAction="ifRoom"
+            android:title="@string/lyrics">
+    </item>
+    <item
+            android:id="@+id/shop"
+            android:icon="@drawable/shopping_cart"
+            app:showAsAction="ifRoom"
+            android:title="@string/shop">
+    </item>
+
+    <item
+            android:id="@+id/changeMode"
+            android:title= "@string/change_mode">
+    </item>
+    <item
+            android:id="@+id/skipSong"
+            android:title= "@string/skip_song">
+    </item>
+    <item
+            android:id="@+id/achievements"
+            android:title= "@string/achievements">
+    </item>
+
+</menu>
